@@ -2,7 +2,7 @@ package handles
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/grt1st/short_links/core"
+	"github.com/grt1st/shortcut/core"
 	"net/http"
 )
 

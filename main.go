@@ -2,9 +2,9 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/grt1st/short_links/core"
-	"github.com/grt1st/short_links/handles"
-	"github.com/grt1st/short_links/models"
+	"github.com/grt1st/shortcut/core"
+	"github.com/grt1st/shortcut/handles"
+	"github.com/grt1st/shortcut/models"
 )
 
 func main() {

@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/grt1st/short_links/core"
+	"github.com/grt1st/shortcut/core"
 	"github.com/jinzhu/gorm"
 	"math/rand"
 	"time"
