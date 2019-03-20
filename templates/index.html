@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/umi.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <title>shortcut service</title>
+    <script type="text/javascript">var onloadGCaptcha = function () {
+        grecaptcha.render('captcha', {
+            'sitekey': '{{ .gkey }}'
+        });
+    };</script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadGCaptcha&render=explicit" async
+            defer="defer"></script>
+    <script>window.routerBase = "/";</script>
+</head>
+<body>
+<div id="root"></div>
+<script>const HOST = "{{ .protocol }}://{{ .host }}";
+
+function rel() {
+    grecaptcha.reset();
+}</script>
+<script src="/static/umi.js"></script>
+</body>
+</html>

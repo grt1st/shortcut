@@ -1,0 +1,6 @@
+protocol: http
+host: 127.0.0.1:8001
+mysql: mysql//user:password@(host:port)/database?charset=utf8&parseTime=True&loc=Local
+redis: 127.0.0.1:6379//password
+gkey: your_site_client_key
+gsecret: your_site_server_key
