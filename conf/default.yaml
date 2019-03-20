@@ -1,7 +1,7 @@
-protocol: http
-host: ip:port
-domain: domain
-mysql: mysql//user:password@(host:port)/database?charset=utf8&parseTime=True&loc=Local
-redis: 127.0.0.1:6379//password
-gkey: your_site_client_key
-gsecret: your_site_server_key
+protocol: http  # http or https
+host: ip:port   # listen on where, such as 127.0.0.1:8001
+domain: domain  # your domain, such as github.com. you can also set it the same as host
+mysql: mysql//user:password@(host:port)/database?charset=utf8&parseTime=True&loc=Local # mysql client
+redis: 127.0.0.1:6379//password  # redis client
+gkey: your_site_client_key       # you key of google re captcha
+gsecret: your_site_server_key    # you secret of google re captcha
