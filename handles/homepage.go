@@ -14,7 +14,7 @@ func Ping(c *gin.Context) {
 
 func Index(c *gin.Context) {
 	c.HTML(http.StatusOK, "index.html", gin.H{
-		"host": core.Config.Host,
+		"host": core.Config.Domain,
 		"protocol": core.Config.Protocol,
 		"gkey": core.Config.Gkey,
 	})

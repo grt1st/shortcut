@@ -10,6 +10,7 @@ import (
 type configS struct {
 	Protocol string
 	Host     string
+	Domain   string
 	Mysql    string
 	Redis    string
 	Gkey     string
